@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BsNavbarComponent } from './bs-navbar.component';
+import { ProjectCardComponent } from './project-card.component';
 
-describe('BsNavbarComponent', () => {
-  let component: BsNavbarComponent;
-  let fixture: ComponentFixture<BsNavbarComponent>;
+describe('ProjectCardComponent', () => {
+  let component: ProjectCardComponent;
+  let fixture: ComponentFixture<ProjectCardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BsNavbarComponent ]
+      declarations: [ ProjectCardComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BsNavbarComponent);
+    fixture = TestBed.createComponent(ProjectCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
